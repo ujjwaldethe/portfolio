@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#mainbody{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* Used to make shades of color */
+    background-image: linear-gradient(rgb(70, 11, 160),rgb(0, 255, 255));
+}
+.nameBox
+{
+    width: 40%;
+    flex-direction: column;
+    /* border: 3px solid white; */
+}
+.nameBox>h1{
+    color: wheat;
+    font-size: 150px;
+}
+.nameBox>p{
+    color: white;
+    font-size: 50px;
+}
+nav{
+
+    position: fixed;
+    left: 20px;
+    top:20vh;
+    width: 6vw;
+    height: 60vh;
+}
+nav>div{
+    width:  4vw;
+    height: 4vw;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+}
+nav>div>a>i{
+    color: white;
+    font-size: 30px;
+}
+nav>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 255, 255);
+}
+.aboutSection>main{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    border: 2px solid;
+}
+.aboutSection>main>article{
+    width: 50%;
+    height: 100%;
+    border: 3px solid brown;
+}
