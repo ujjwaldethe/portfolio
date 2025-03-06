@@ -1,10 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif;
+    /* font-family: sans-serif; */
 }
 #mainbody{
+
+
     display: flex;
     width: 100%;
     height: 100vh;
@@ -12,16 +17,19 @@
     align-items: center;
     /* Used to make shades of color */
     background-image: linear-gradient(rgb(70, 11, 160),rgb(0, 255, 255));
+    overflow-x: hidden;
 }
 .nameBox
 {
     width: 40%;
     flex-direction: column;
+    /* font-size: 20px; */
     /* border: 3px solid white; */
 }
 .nameBox>h1{
     color: wheat;
-    font-size: 150px;
+    font-size: 100px;
+    line-height: 137px;
 }
 .nameBox>p{
     color: white;
@@ -50,6 +58,7 @@ nav>div{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .aboutSection{
     width: 100%;
@@ -63,10 +72,90 @@ nav>div{
     display: flex;
     width: 80%;
     height: 80%;
-    border: 2px solid;
+
 }
 .aboutSection>main>article{
     width: 50%;
     height: 100%;
-    border: 3px solid brown;
+    background-color: rgba(148, 174, 172, 0.596);
+    border-radius: 30px;
+    margin: 10px;
+
+}
+.aboutSection{
+    background-image: rgb(0, 255, 255);  
+}
+.about{
+    display: flex   ;
+    width: 100%;
+    height: 100%;
+}
+.aboutArticle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap:30px;
+    
+    color: black;
+}
+.about>div{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background: #00c8ffe5;
+    border-radius: 30px;
+    margin: 5px;
+}
+.about li{
+    padding: 10px;
+}
+.about ul{
+    padding-top: 10px;
+}
+.about div{
+    padding: 20px;
+}
+.aboutSection h1{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.about{
+    margin:10px;
+}
+.projects{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects>main{
+    width: 80%;
+    height: 80%;
+    border: 3px solid;
+}
+.projects>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 15px;
+}
+.projects>main>article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(148, 174, 172, 0.596);
+}
+.projects>main>article>div{
+
+    width: 45%;
+    height: 45%;
+    border: 3px solid;
 }
