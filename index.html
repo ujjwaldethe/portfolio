@@ -4,65 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
+    <div id="navbar">
+        <nav data-aos="zoom-in-right" id="navList">
+            <div>
+                <a href="#mainbody">
+                  <i class="fa-solid fa-house-user"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#aboutid">
+                    <i class="fa-solid fa-address-card"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#projectid">
+                    <i class="fa-solid fa-list-check"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#expid">
+                    <i class="fa-solid fa-briefcase"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#achievementsid">
+                    <i class="fa-solid fa-trophy"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#contactid">
+                    <i class="fa-solid fa-address-book"></i>
+                </a>
+            </div>
+        </nav>
+    </div>
     <main id="mainbody">
        <div class="nameBox" data-aos="fade-up">
         <p>hii...</p>
         <h1 style="color:rgb(66, 3, 147);">I AM UJJWAL</h1>
         <p style="color: rgb(77, 1, 255);">A Software Developer</p>
         </div>
-        <nav  data-aos="zoom-in-right">
-            <div>
-                <a href="#">
-                  <i class="fa-solid fa-house-user"></i>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <i class="fa-solid fa-address-card"></i>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <i class="fa-solid fa-list-check"></i>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <i class="fa-solid fa-briefcase"></i>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <i class="fa-solid fa-trophy"></i>
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <i class="fa-solid fa-address-book"></i>
-                </a>
-            </div>
-        </nav>
     </main>
 
-    <section class="aboutSection">
+    <section class="aboutSection" id="aboutid">
     <main>
-        <article> 
-            <img src="" alt="">
+        <article data-aos="fade-right"> 
+            <img src="/Day 03 05-03-2025/assests/yoyo.png" width="90%" height="80%" style="border-radius: 30px;" alt="">
         </article>
-        <article></article>
-        
+        <article class="aboutArticle" data-aos="fade-left">
+            <h1><ins>About</ins></h1>
+            <p>I am Ujjwal Dethe, a passionate and motivated Computer Engineering student (BE - Pursuing) with a strong foundation in Java development, database management, and web technologies. With hands-on experience in building software solutions.</p>    
+            <section class="about">
+                <div>
+                    <h3>Qualifications</h3>
+                    <ul>
+                        <li>
+                            BE Comp Engineering : 8.05 SGPA. 
+                        </li>
+                        <p>(Late G. N. Sapkal College of Engineering, SPPU)</p>
+                        <li> Diploma : 84.21%.
+                        </li>
+                        <p>(Government Polytechnic, Dhule)</p>
+                        <li> X Standard : 85.00%
+                        </li>
+                        <p>(Rastriya Vidyalaya, Chalisgaon)</p>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>✔ Java Programming
+                        </li>
+                        <li>✔ MySQL & PostgreSQL
+                        </li>
+                        <li>✔ Python
+                        </li>
+                        <li>✔ HTML, CSS, JavaScript
+                        </li>
+                        <li>✔ Data Structures & Algorithms (DSA)
+                        </li>
+                        <li>✔ C, C++
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
     </main>
-
     </section>
+    <section class="projects" id="projectid">
+        <h1>What I Did...?</h1>
+        <div id="projectContent">
+            <div data-aos="fade-down-right">
+                <h1>Real Time Collaborative Code Editor</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+           
+            </div>
+            <div data-aos="fade-down-left">
+                <h1>QR Based Attendance Management System</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+            </div>
+            <div data-aos="fade-up-right">
+                <h1>Hospital Management System</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+           
+            </div>
+            <div data-aos="fade-up-left">
+                <h1>Airplane Management System</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+            </div>
+        </div>
+    </section >
+    <section class="expid" id="expid">
+        <h1>Experience</h1>
+        <div id="experienceContent">
+            <div data-aos="fade-down-right">
+                <h1>Company - Humming Byte Pvt Ltd</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+           
+            </div>
+            <div data-aos="fade-down-left">
+                <h1>Company - Oasis Infobyte</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+            </div>
+            <div data-aos="fade-up-right">
+                <h1>Company : CodSoft Pvt Ltd</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, impedit. Odio vero veritatis sit atque obcaecati ab totam sequi aliquam quo! Deserunt quasi numquam eum molestias quam? Nam, animi explicabo!</p>
+            </div>
+        </div>
+    </section >
+    <section class="achievementsid">
+            <div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    </script>
-    <script>AOS.init();
-    </script>
+            </div>
+    </section>
+    <section class="contactid">
+        <div>
+
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
