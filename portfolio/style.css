@@ -6,14 +6,11 @@
     box-sizing: border-box; 
     font-family: "Poppins", sans-serif;
     /* font-family: sans-serif; */
-<<<<<<< HEAD
     
 }
 body{
     /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-=======
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 }
 #mainbody{
 
@@ -27,12 +24,7 @@ body{
     align-items: center;
    
     /* Used to make shades of color */
-<<<<<<< HEAD
         overflow-x: hidden;
-=======
-    background-image: linear-gradient(rgb(70, 11, 160),rgb(0, 255, 255));
-    overflow-x: hidden;
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 }
 .nameBox
 {
@@ -75,7 +67,6 @@ nav>div{
     justify-content: center;
     align-items: center;
     
-<<<<<<< HEAD
 }
 #navbar {
     /* position: -webkit-sticky; /* For Safari */
@@ -84,8 +75,6 @@ nav>div{
     z-index: 1000; /* Ensure it stays on top */
     background-color: white; /* Optional: Add a background color */
     box-shadow: 0 4px 6px -6px #222; /* Optional: Add a shadow for better visibility */
-=======
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 }
 .aboutSection{
     width: 100%;
@@ -107,30 +96,17 @@ nav>div{
 .aboutSection>main>article{
     width: 50%;
     height: 100%;
-<<<<<<< HEAD
     
-=======
-    background-color: rgba(148, 174, 172, 0.596);
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
     border-radius: 30px;
     margin: 10px;
 
 }
-<<<<<<< HEAD
 
-=======
-.aboutSection{
-    background-image: rgb(0, 255, 255);  
-}
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 .about{
     display: flex   ;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
     padding: 10px;
-=======
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 }
 .aboutArticle{
 
@@ -139,7 +115,6 @@ nav>div{
     align-items: center;
     flex-direction: column;
     padding: 30px;
-<<<<<<< HEAD
     gap:10px;
     
     color: black;
@@ -147,17 +122,10 @@ nav>div{
 .aboutArticle p{
     font-size: small;
 }
-=======
-    gap:30px;
-    
-    color: black;
-}
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 .about>div{
     width: 50%;
     height: 100%;
     padding: 20px;
-<<<<<<< HEAD
     /* background: #00c8ffe5; */
     border-radius: 30px;
     margin-top: -5px;
@@ -208,54 +176,11 @@ nav>div{
 
 
 /* .projects{
-=======
-    background: #00c8ffe5;
-    border-radius: 30px;
-    margin: 5px;
-}
-.about li{
-    padding: 10px;
-}
-.about ul{
-    padding-top: 10px;
-}
-.about div{
-    padding: 20px;
-}
-.aboutSection h1{
-    margin-top: 50px;
-    font-size: 30px;
-}
-.about{
-    margin:10px;
-}
-.projects{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(0, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.projects>main{
-    width: 80%;
-    height: 80%;
-    border: 3px solid;
-}
-.projects>main>h1{
-    font-size: 50px;
-    text-align: center;
-    text-decoration: underline;
-    padding: 15px;
-}
-.projects>main>article{
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-<<<<<<< HEAD
     height: 100vh;
 } */
 #projectContent{
@@ -360,14 +285,4 @@ nav>div{
 }
 .expid>div>div{
     background: #8ec5fc 10%
-=======
-    height: 80%;
-    background-color: rgba(148, 174, 172, 0.596);
-}
-.projects>main>article>div{
-
-    width: 45%;
-    height: 45%;
-    border: 3px solid;
->>>>>>> eddece7a4a93fecd5cc0430f31d750ca5ebe4dae
 }
