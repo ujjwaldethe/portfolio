@@ -10,7 +10,12 @@
 }
 body{
     /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    /* background-image: linear-gradient(130deg, #e0c3fc 0%, #8ec5fc 100%); */
+    background-image: linear-gradient(100deg,  #e0c3fc 10%, #8ec5fc 90%);
+    
+}
+.skills ::marker{
+    content: "✔";
 }
 #mainbody{
 
@@ -28,8 +33,9 @@ body{
 }
 .nameBox
 {
-    width: 40%;
+    width: 60%;
     flex-direction: column;
+    margin-left: 20rem;
     /* font-size: 20px; */
     /* border: 3px solid white; */
 }
@@ -68,6 +74,9 @@ nav>div{
     align-items: center;
     
 }
+li{
+    font-size: 15px;
+}
 #navbar {
     /* position: -webkit-sticky; /* For Safari */
     /* position: sticky; */
@@ -87,44 +96,63 @@ nav>div{
 
     background-image: linear-gradient(120deg,  #e0c3fc 10%, #8ec5fc 90%);
 }
+a1{
+padding-right: 0px;
+margin-right: 100px;
+}
 .aboutSection>main{
+    
     display: flex;
-    width: 80%;
+    justify-content: center;
+    width: 70%;
     height: 80%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 .aboutSection>main>article{
-    width: 50%;
+    width: 100%;
     height: 100%;
-    
+
     border-radius: 30px;
     margin: 10px;
 
 }
-
 .about{
     display: flex   ;
     width: 100%;
+    overflow: hidden;
     height: 100%;
-    padding: 10px;
+    border-radius: 30px;    
+   
+}
+
+
+.about>div>h1{
+    font-size: 20px;
+    text-align: center;
+
 }
 .aboutArticle{
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px;
-    gap:10px;
-    
+    padding-top: 5px;
+
     color: black;
 }
 .aboutArticle p{
-    font-size: small;
+    font-size: 15px;
 }
 .about>div{
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 90%;
     padding: 20px;
     /* background: #00c8ffe5; */
     border-radius: 30px;
@@ -152,6 +180,16 @@ nav>div{
     font-size: 20px;
 }
 
+.Qualifications,.skills{
+    background: linear-gradient(135deg, #a0c4ff, #bdb2ff);
+
+    margin: 10px;
+    padding: 20px;
+    height: 100%;;
+
+}
+
+
 .projects{
     width: 100%;
     height: 100vh;
@@ -174,15 +212,6 @@ nav>div{
     text-decoration: underline;
 }
 
-
-/* .projects{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-} */
 #projectContent{
     display: flex;
     align-items: center;
@@ -211,12 +240,18 @@ nav>div{
 
     width: 45%;
     height: 45%;
-    background: rgba(32, 22, 5, 0.11);
     border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     
 }
 .projects>div>div{
-    background: #8ec5fc 10%
+    background: linear-gradient(135deg, #a0c4ff, #bdb2ff);
+
 }
 
 
@@ -225,9 +260,8 @@ nav>div{
     height: 100vh;
     /* position: sticky;
     top: 0; */
-    background-image: linear-gradient(240deg,  #8ec5fc 10%, #e0c3fc  90%);
+    background-image: linear-gradient(120deg,  #e0c3fc 10%, #8ec5fc 90%);
 
-     /* background-color: rgb(0, 255, 255);  */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,10 +313,195 @@ nav>div{
 
     width: 45%;
     height: 45%;
-    background: rgba(32, 22, 5, 0.11);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     
 }
 .expid>div>div{
-    background: #8ec5fc 10%
+    /* background: linear-gradient(135deg, #a0c4ff, #bdb2ff); */
+    /* background: linear-gradient(135deg, #a0c4ff, #bdb2ff); */
+    background: linear-gradient(135deg, #a0c4ff, #bdb2ff)
+
+}
+
+
+.acvid{
+    width: 100%;
+    height: 100vh;
+    /* position: sticky;
+    top: 0; */
+    background-image: linear-gradient(240deg,  #8ec5fc 10%, #e0c3fc  90%);
+
+     /* background-color: rgb(0, 255, 255);  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.acvid>h1 {
+    position: absolute;
+    top: 8%;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+#achievementContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    width: 70%;
+    height: 70%;
+    flex-wrap: wrap;
+    
+    /* background-color: rgba(148, 174, 172, 0.596); */
+    padding: 35px;
+}
+
+#achievementContent div{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.acvid div{
+
+    width: 45%;
+    height: 45%;
+    /* background: rgba(32, 22, 5, 0.11); */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    
+}
+.acvid>div>div{
+    /* background: #8ec5fc 10% */
+    background: linear-gradient(135deg, #a0c4ff, #bdb2ff);
+
+
+}
+
+
+.loading {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    span {
+      display: inline-block;
+      margin: 0 -.05em;
+      color:rgb(66, 3, 147);
+    }
+  }
+  .loading02 {
+    span {
+      animation: loading02 1.2s infinite alternate;
+      @for $i from 1 through 6 {
+        &:nth-child(#{$i+1}) {
+          animation-delay: #{$i*.2}s;
+        }
+      }
+    }
+  }
+  @keyframes loading02 {
+    0% {
+      filter: blur(0);
+      opacity: 1;
+    }
+    100% {
+      filter: blur(5px);
+      opacity: .2;
+    }
+  }
+
+  .firelm{
+    text-align: left;
+  }
+  #loading p{
+   font-size: 20px;
+   color:rgb(66, 3, 147)
+  }
+
+
+
+  .contacts{
+    width: 100%;
+    height: 100vh;
+    /* position: sticky;
+    top: 0; */
+    background-image: linear-gradient(300deg,  #8ec5fc 10%, #e0c3fc  90%);
+
+     /* background-color: rgb(0, 255, 255);  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.contacts>h1 {
+    position: absolute;
+    top: 8%;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#contactContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    width: 70%;
+    height: 70%;
+    flex-wrap: wrap;
+    
+    /* background-color: rgba(148, 174, 172, 0.596); */
+    padding: 35px;
+}
+
+#contactContent div{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.contacts div{
+
+    width: 45%;
+    height: 45%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+.contacts>div>div{
+    background: linear-gradient(135deg, #a0c4ff, #bdb2ff);
+
 }
