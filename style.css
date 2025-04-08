@@ -422,7 +422,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   }
   .loading02 {
     span {
-      animation: loading02 2s infinite alternate;
+      animation: loading02 1s infinite alternate;
       @for $i from 1 through 6 {
         &:nth-child(#{$i+1}) {
           animation-delay: #{$i*.2}s;
@@ -512,6 +512,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
    
     font-size: 2em;
 }
+
 #CLICKC{
     display: flex;
     justify-content: space-evenly;
